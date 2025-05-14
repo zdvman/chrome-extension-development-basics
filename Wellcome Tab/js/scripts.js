@@ -64,7 +64,6 @@ const changeElemDisplay = (elems, display = 'none') => {
   clearElem.addEventListener('click', function () {
     chrome.storage.sync.remove(['name'], function () {
       welcomeElem.innerHTML = `Hello, what is your name?`;
-      inputElem.value = '';
       const hiddenElems = document.getElementsByClassName('has-name');
       const visibleElems = document.getElementsByClassName('no-name');
       changeElemDisplay(hiddenElems);

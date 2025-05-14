@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+
+.content {
+  padding: 50px;
+  width: 300px;
+}
+
+.content label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.content select {
+  margin: 0;
+  padding: 5px;
+  width: 100%;
+}
